@@ -6,7 +6,7 @@ A couple of tools I built for work to add printers remotely and locally using a 
 ## How It Works
 The tools copy the driver folder to C:/Temp on the chosen PC, install the driver to the driver store, and add the printer using its IP and name. The remote tool performs the same actions but locates the PC by its name on the domain. The removal script provides options to list, remove specific, or remove all printers based on your needs.
 
-**Note:** You will need to download the actual driver folder and extract its contents to an empty folder in the project and name it "Driver". I use the V3 Xerox Global Print Driver PCL6 from the [Xerox support site](https://www.support.xerox.com/en-us/product/global-printer-driver/downloads?language=en), but you can use a different driver if you prefer. Note that other drivers may not work as intended as they have not been tested with this script.
+**Note:** You will need to download the actual driver folder and extract its contents to an empty folder in the project and name it "Driver", the folder needs to contain the contents of the downloaded driver zip file and be named "Driver" otherwise it will not work as intended. I use the V3 Xerox Global Print Driver PCL6 from the [Xerox support site](https://www.support.xerox.com/en-us/product/global-printer-driver/downloads?language=en), but you can use a different driver if you prefer. Note that other drivers may not work as intended as they have not been tested with this script.
 
 ## Scripts
 
